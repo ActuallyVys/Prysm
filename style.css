@@ -1,4 +1,4 @@
-/*  import google fonts */
+/*  Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+/* Custom Scroll Bar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -77,7 +77,7 @@ section .title::after{
     transform: translateX(-50%);
 }
 
-/* navbar styling */
+/* Navbar Styling */
 .navbar{
     position: fixed;
     width: 100%;
@@ -126,7 +126,7 @@ section .title::after{
     color: #fff;
 }
 
-/* menu btn styling */
+/* Menu BTN Styling */
 .menu-btn{
     color: #fff;
     font-size: 23px;
@@ -162,7 +162,7 @@ section .title::after{
 }
 
 
-/* home section styling */
+/* Home Section Styling */
 .home{
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
@@ -213,7 +213,7 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
+/* About Section Styling */
 .about .title::after{
     content: "Who we are";
 }
@@ -257,7 +257,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+/* Services Section Styling */
 .services, .teams{
     color:#fff;
     background: #111;
@@ -303,7 +303,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* skills section styling */
+/* Skills Section Styling */
 
 .skills .title::after{
     content: "What we know";
@@ -378,7 +378,7 @@ section .title::after{
     width: 70%;
 }
 
-/* teams section styling */
+/* Team Section Styling */
 .teams .title::after{
     content: "Maintainers";
 }
@@ -441,7 +441,7 @@ section .title::after{
     background: crimson!important;
 }
 
-/* contact section styling */
+/* Contact Section Styling */
 .contact .title::after{
     content: "Get in Touch";
 }
@@ -536,7 +536,7 @@ section .title::after{
   color: crimson;
   background: none;
 }
-/* footer section styling */
+/* Footer Section Styling */
 footer{
     background: #111;
     padding: 15px 23px;
@@ -552,7 +552,7 @@ footer span a:hover{
 }
 
 
-/* responsive media query start */
+/* Mobile Responsiveness */
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
